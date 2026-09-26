@@ -1,4 +1,4 @@
-python ../toggle_pbp.py off
+python ../switch.py dp1
 timeout /t 1 /nobreak >nul
-python ../switch.py hdmi2
+python ../toggle_pbp.py off
 

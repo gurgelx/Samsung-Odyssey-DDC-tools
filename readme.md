@@ -6,6 +6,13 @@
 - At least one source needs to be connected through HDMI
 - monitorcontrol package `pip install monitorcontrol`
 
+## Regular Input select
+
+`python switch.py dp1`
+`python switch.py hdmi1`
+`python switch.py hdmi2`
+`python switch.py hdmi3`
+
 ## PIP input select
 
 `python split_switch.py left hdmi1`
