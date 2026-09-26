@@ -3,7 +3,6 @@
 ## Requirements
 
 - Firmware 1008.2 or later
-- At least one source needs to be connected through HDMI
 - monitorcontrol package `pip install monitorcontrol`
 
 ## Regular Input select
