@@ -14,6 +14,9 @@
 
 ## PIP toggle
 
+### To enable PBP Mode
+`python toggle_pbp.py on`
+
 ### Turn PBP mode on (50/50 split)
 
 `python toggle_pbp.py pbp`

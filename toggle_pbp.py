@@ -7,9 +7,12 @@ VCP_LAYOUT = 0xE2
 # Samsung 57" Neo G9 Layout Codes
 LAYOUTS = {
     "off": 0x00,
-    "pip": 0x10,
-    "pbp": 0x03,     # Standard 50/50 split
-    "3pbp": 0x08,    # 3-way split (25/50/25)
+    "on": 0x01,
+    "pbp": 0x03,        # Standard 50/50 split
+    "3pbp_sq": 0x06,    # Square center
+    "3pbp_left": 0x07,  # Large left
+    "3pbp": 0x08,   # Large middle
+    "3pbp_right": 0x09, # Large right
 }
 
 def set_layout(layout_name):
